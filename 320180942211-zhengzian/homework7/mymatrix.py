@@ -211,7 +211,7 @@ class Matrix:
         """
         return self.__sub__(para)
 
-    def __sub__(self, para):  # 判断，如果是个Matrix且大小相同，矩阵运算，如果是个常数
+    def __sub__(self, para):
         if isinstance(para, Matrix):
             assert para.shape == self.shape, "matrix can only operate with a number or matrix that have the same shape"
             r = []
