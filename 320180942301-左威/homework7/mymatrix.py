@@ -1,11 +1,11 @@
 import copy
 class Matrix:
   '''矩阵类'''
-  def __init__(self, row, column, fill=0.0):
+  def __init__(self, row, column, f=0.0):
     self.shape = (row, column)
     self.row = row
     self.column = column
-    self._matrix = [[fill]*column for i in range(row)]
+    self._matrix = [[f]*column for i in range(row)]
   # 返回元素m(i, j)的值: m[i, j]
   def __getitem__(self, index):
     if isinstance(index, int):
@@ -71,15 +71,6 @@ class Matrix:
     for i in range(k):
       M = M * self
     return M
-  def rank(self):
-    '''矩阵的秩'''
-    pass
-  def trace(self):
-    '''矩阵的迹'''
-    pass
-  def adjoint(self):
-    '''伴随矩阵'''
-    pass
   def invert(self):
     '''逆矩阵'''
     assert self.row == self.column, "不是方阵"
@@ -121,9 +112,6 @@ class Matrix:
     for r in range(1,self.row+1):
       N[r] = M[r][self.row:]
     return N
-  def jieti(self):
-    '''行简化阶梯矩阵'''
-    pass
   def transpose(self):
     '''转置'''
     M = Matrix(self.column, self.row)
@@ -159,11 +147,11 @@ class Matrix:
       return sum
   def zeros(self):
     '''全零矩阵'''
-    M = Matrix(self.column, self.row, fill=0.0)
+    M = Matrix(self.column, self.row, f=0.0)
     return M
   def ones(self):
     '''全1矩阵'''
-    M = Matrix(self.column, self.row, fill=1.0)
+    M = Matrix(self.column, self.row, f=1.0)
     return M
   def identity(self):
     '''单位矩阵'''
@@ -180,8 +168,8 @@ class Matrix:
         print(self[r+1, c+1],end=' ')
       print()
 if __name__ == '__main__':
-  m = Matrix(3,3,fill=2.0)
-  n = Matrix(3,3,fill=3.5)
+  m = Matrix(3,3,f=2.0)
+  n = Matrix(3,3,f=3.5)
   m[1] = [1.,1.,2.]
   m[2] = [1.,2.,1.]
   m[3] = [2.,1.,1.]
@@ -193,11 +181,10 @@ if __name__ == '__main__':
   #print(p[1,1])
   #r = m.invert()
   #s = r*m
+  p.show()
   print()
   m.show()
   print()
-  #r.show()
-  print()
-  #s.show()
+  r.show()
   print()
   print(m.det())
