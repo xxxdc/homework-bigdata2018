@@ -1,0 +1,506 @@
+Rules:
+------
+1. Each one as reviewer will get 5 homeworks to review.
+2. The reviewers should read the source code and grade them from the following aspects
+	1) correctness, correctness of functionality the code provides
+	2) test, proper doctest, unitest, testsuite in __main__, help message?
+	3) documentation, proper docstr, proper comment, copyright, author, version information?
+	4) exception, proper exeption handling, type checking 
+	5) pep8, how the code follows PEP8?
+3. Grading the homework with the specific criterion, you would give A,B,C and D respectively.
+
+4. Please give the comments why the grades, if one line can not acccomodate, please create a file in the directory of comments. The comment file should also be checked into the git repository.
+
+IMPORTANT:
+Please DO fix the conflication of git correctly, otherwise you may mess up other's submission.
+
+Demo
+--------
+Reviewer, homework, correctness, test, documentation, exception, pep8
+666666666666, 111111111111, A, B, C, A, B
+comment: some explanation for why the grade
+666666666666, 111111111112, B, A, D, A, A
+comment: comments/666666666666-111111111112.txt (if one line can not accomodate)
+666666666666, 111111111113, C, B, C, C, B
+comment: some explanation for why the grade
+666666666666, 111111111114, A, A, D, A, A
+comment: some explanation for why the grade
+666666666666, 111111111115, B, B, C, D, B
+comment: some explanation for why the grade
+
+
+Grading list
+--------
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320170900210, 320180941691, 
+comment:
+320170900210, 320180942301, 
+comment:
+320170900210, 320180940891, 
+comment:
+320170900210, 320180941881, 
+comment:
+320170900210, 320180941991, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320170903441, 320180941370, 
+comment:
+320170903441, 320180941901, 
+comment:
+320170903441, 320180941931, 
+comment:
+320170903441, 320180940981, 
+comment:
+320170903441, 320170926300, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320170926300, 320180942321, 
+comment:
+320170926300, 320180941370, 
+comment:
+320170926300, 320180941980, 
+comment:
+320170926300, 320180941651, 
+comment:
+320170926300, 320180942131, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320170929331, 320180941691, 
+comment:
+320170929331, 320180940891, 
+comment:
+320170929331, 320180942201, 
+comment:
+320170929331, 320180941931, 
+comment:
+320170929331, 320180941011, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180919421, 320170900210, 
+comment:
+320180919421, 320180941861, 
+comment:
+320180919421, 320180942211, 
+comment:
+320180919421, 320180941361, 
+comment:
+320180919421, 320180942201, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180928901, 320180941141, 
+comment:
+320180928901, 320180941581, 
+comment:
+320180928901, 320180941161, 
+comment:
+320180928901, 320180942261, 
+comment:
+320180928901, 320180940961, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180940780, 320180940961, 
+comment:
+320180940780, 320180941821, 
+comment:
+320180940780, 320170929331, 
+comment:
+320180940780, 320180940981, 
+comment:
+320180940780, 320170903441, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180940891, 320170900210, 
+comment:
+320180940891, 320180928901, 
+comment:
+320180940891, 320180940780, 
+comment:
+320180940891, 320180941841, 
+comment:
+320180940891, 320180941691, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180940961, 320180928901, 
+comment:
+320180940961, 320180941420, 
+comment:
+320180940961, 320180941931, 
+comment:
+320180940961, 320180941901, 
+comment:
+320180940961, 320180942181, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180940981, 320180941001, 
+comment:
+320180940981, 320180941980, 
+comment:
+320180940981, 320170929331, 
+comment:
+320180940981, 320170903441, 
+comment:
+320180940981, 320170900210, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941001, 320180941141, 
+comment:
+320180941001, 320180940780, 
+comment:
+320180941001, 320180919421, 
+comment:
+320180941001, 320180941460, 
+comment:
+320180941001, 320180941011, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941011, 320180942321, 
+comment:
+320180941011, 320180919421, 
+comment:
+320180941011, 320180941361, 
+comment:
+320180941011, 320180941161, 
+comment:
+320180941011, 320180942211, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941141, 320180941250, 
+comment:
+320180941141, 320180941291, 
+comment:
+320180941141, 320180941780, 
+comment:
+320180941141, 320180942261, 
+comment:
+320180941141, 320180941001, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941161, 320180941370, 
+comment:
+320180941161, 320180941881, 
+comment:
+320180941161, 320180940981, 
+comment:
+320180941161, 320180928901, 
+comment:
+320180941161, 320180940780, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941250, 320170926300, 
+comment:
+320180941250, 320180941590, 
+comment:
+320180941250, 320180941841, 
+comment:
+320180941250, 320180942011, 
+comment:
+320180941250, 320180942021, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941291, 320180942011, 
+comment:
+320180941291, 320180941581, 
+comment:
+320180941291, 320180941890, 
+comment:
+320180941291, 320180942021, 
+comment:
+320180941291, 320180942301, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941361, 320170926300, 
+comment:
+320180941361, 320180940891, 
+comment:
+320180941361, 320180941161, 
+comment:
+320180941361, 320180941821, 
+comment:
+320180941361, 320170929331, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941370, 320180940891, 
+comment:
+320180941370, 320180941980, 
+comment:
+320180941370, 320180941011, 
+comment:
+320180941370, 320180940961, 
+comment:
+320180941370, 320180942261, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941420, 320180941901, 
+comment:
+320180941420, 320170926300, 
+comment:
+320180941420, 320180941780, 
+comment:
+320180941420, 320180941821, 
+comment:
+320180941420, 320180942011, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941460, 320180941821, 
+comment:
+320180941460, 320180941890, 
+comment:
+320180941460, 320180942011, 
+comment:
+320180941460, 320180941841, 
+comment:
+320180941460, 320180941161, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941581, 320180941590, 
+comment:
+320180941581, 320180942131, 
+comment:
+320180941581, 320180941141, 
+comment:
+320180941581, 320170929331, 
+comment:
+320180941581, 320180941291, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941590, 320180942211, 
+comment:
+320180941590, 320180941011, 
+comment:
+320180941590, 320170900210, 
+comment:
+320180941590, 320180942181, 
+comment:
+320180941590, 320180941420, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941651, 320180942301, 
+comment:
+320180941651, 320180942321, 
+comment:
+320180941651, 320180941001, 
+comment:
+320180941651, 320180941861, 
+comment:
+320180941651, 320180942201, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941691, 320180941250, 
+comment:
+320180941691, 320180941881, 
+comment:
+320180941691, 320180941861, 
+comment:
+320180941691, 320180941001, 
+comment:
+320180941691, 320180941651, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941780, 320180942181, 
+comment:
+320180941780, 320180941250, 
+comment:
+320180941780, 320180941991, 
+comment:
+320180941780, 320180941460, 
+comment:
+320180941780, 320180942321, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941821, 320180942201, 
+comment:
+320180941821, 320180941420, 
+comment:
+320180941821, 320180941780, 
+comment:
+320180941821, 320180942181, 
+comment:
+320180941821, 320180941991, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941841, 320180941691, 
+comment:
+320180941841, 320180942301, 
+comment:
+320180941841, 320180941861, 
+comment:
+320180941841, 320180941581, 
+comment:
+320180941841, 320180941881, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941861, 320180940780, 
+comment:
+320180941861, 320180941291, 
+comment:
+320180941861, 320180940981, 
+comment:
+320180941861, 320180941890, 
+comment:
+320180941861, 320180942261, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941881, 320180942261, 
+comment:
+320180941881, 320180941011, 
+comment:
+320180941881, 320180940961, 
+comment:
+320180941881, 320180941590, 
+comment:
+320180941881, 320180941420, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941890, 320180941420, 
+comment:
+320180941890, 320180941141, 
+comment:
+320180941890, 320180941841, 
+comment:
+320180941890, 320180942301, 
+comment:
+320180941890, 320180919421, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941901, 320180941931, 
+comment:
+320180941901, 320180941651, 
+comment:
+320180941901, 320170903441, 
+comment:
+320180941901, 320180941460, 
+comment:
+320180941901, 320180941291, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941931, 320180940961, 
+comment:
+320180941931, 320180941581, 
+comment:
+320180941931, 320180941370, 
+comment:
+320180941931, 320180941161, 
+comment:
+320180941931, 320180941861, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941980, 320180919421, 
+comment:
+320180941980, 320180941370, 
+comment:
+320180941980, 320180941991, 
+comment:
+320180941980, 320180941881, 
+comment:
+320180941980, 320180942211, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180941991, 320180941590, 
+comment:
+320180941991, 320180941361, 
+comment:
+320180941991, 320180928901, 
+comment:
+320180941991, 320180941651, 
+comment:
+320180941991, 320180942021, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180942011, 320180941460, 
+comment:
+320180942011, 320180941651, 
+comment:
+320180942011, 320180941901, 
+comment:
+320180942011, 320180941980, 
+comment:
+320180942011, 320170926300, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180942021, 320180941780, 
+comment:
+320180942021, 320180941001, 
+comment:
+320180942021, 320180940981, 
+comment:
+320180942021, 320180941980, 
+comment:
+320180942021, 320180941861, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180942131, 320180941931, 
+comment:
+320180942131, 320180919421, 
+comment:
+320180942131, 320180941250, 
+comment:
+320180942131, 320180941991, 
+comment:
+320180942131, 320180941691, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180942181, 320180940961, 
+comment:
+320180942181, 320180941991, 
+comment:
+320180942181, 320180942301, 
+comment:
+320180942181, 320180941890, 
+comment:
+320180942181, 320180941931, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180942201, 320180941780, 
+comment:
+320180942201, 320180942021, 
+comment:
+320180942201, 320180942131, 
+comment:
+320180942201, 320180941581, 
+comment:
+320180942201, 320180942211, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180942211, 320180928901, 
+comment:
+320180942211, 320170926300, 
+comment:
+320180942211, 320180941370, 
+comment:
+320180942211, 320180941361, 
+comment:
+320180942211, 320180941881, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180942261, 320170903441, 
+comment:
+320180942261, 320170929331, 
+comment:
+320180942261, 320180941291, 
+comment:
+320180942261, 320180942181, 
+comment:
+320180942261, 320180941141, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180942301, 320180940780, 
+comment:
+320180942301, 320170903441, 
+comment:
+320180942301, 320180941011, 
+comment:
+320180942301, 320180941001, 
+comment:
+320180942301, 320180941841, 
+comment:
+Reviewer, homework, correctness, test, documentation, exception, pep8
+320180942321, 320180941821, 
+comment:
+320180942321, 320180942011, 
+comment:
+320180942321, 320180942131, 
+comment:
+320180942321, 320180941691, 
+comment:
+320180942321, 320180941250, 
+comment:
